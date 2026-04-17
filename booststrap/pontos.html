@@ -28,58 +28,81 @@
         </div>
     </nav>
 
-    <section class="bg-warning py-5">
+    <section class="py-5 bg-light">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h1 class="mb-3">Pontos Turísticos</h1>
-                    <p class="mb-4">Explore destinos que fazem a Espanha ser um país único. De monumentos emblemáticos a paisagens naturais, cada lugar revela um pedaço da cultura espanhola.</p>
-                    <a href="index.html" class="btn btn-danger">Voltar ao início</a>
+            <div class="row mb-4">
+                <div class="col-lg-9">
+                    <h1 class="display-6 fw-bold mb-3">Pontos Turísticos</h1>
+                    <p class="lead mb-2">Descubra os destinos mais visitados da Espanha com foco em experiências, arte, natureza e cultura local.</p>
+                    <p class="text-secondary mb-0">A organização segue o estilo editorial da referência: destaques no topo e guia rápido na parte inferior.</p>
                 </div>
-                
             </div>
-        </div>
-    </section>
 
-    <section class="py-5 bg-warning text-dark">
-        <div class="container">
-            <h2 class="text-center mb-4">Destinos imperdíveis</h2>
-            <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <article class="card text-bg-dark border-0 shadow h-100">
+                        <img src="imagens/toruada.jpeg" class="card-img" alt="Ponto turístico da Espanha" style="min-height: 360px; object-fit: cover;">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.2));">
+                            <span class="badge text-bg-danger mb-2 align-self-start">Destino destaque</span>
+                            <h2 class="h3 fw-bold">Barcelona e sua energia urbana</h2>
+                            <p class="mb-0">Arquitetura de Gaudí, vida cultural intensa e uma combinação única de cidade e litoral.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow mb-4">
                         <div class="card-body">
-                            <h5>Barcelona</h5>
-                            <p>Entre as obras de Gaudí, caminhe pela Las Ramblas e visite a vibrante costa catalã.</p>
+                            <span class="badge text-bg-secondary mb-2">Roteiro</span>
+                            <h3 class="h5">Granada e Sevilha</h3>
+                            <p class="mb-0">Inclua a Alhambra, o Real Alcázar e bairros históricos para viver a herança andaluza.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
+                    <div class="card border-0 shadow">
                         <div class="card-body">
-                            <h5>Granada</h5>
-                            <p>Conheça a Alhambra e os jardins do Generalife, símbolos da herança mourisca.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5>Sevilha</h5>
-                            <p>Descubra a catedral, o Alcázar e a tradição do flamenco nas ruas da cidade.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5>Ilhas Canárias</h5>
-                            <p>Praias, dunas e natureza ativa longe da correria das grandes cidades.</p>
+                            <h3 class="h5">Comece por aqui</h3>
+                            <p class="mb-3">Escolha de 2 a 3 cidades para equilibrar deslocamento e tempo de visita.</p>
+                            <a href="index.html" class="btn btn-danger w-100">Voltar ao início</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-4">
-                <p>Cada destino combina história, cultura e experiências únicas. Planeje sua rota com base nos interesses: arte, praia ou comida.</p>
+
+            <hr class="my-5">
+
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <h2 class="h3 mb-3">Guias recentes</h2>
+                    <div class="card mb-3 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge text-bg-danger mb-2">Cidade</span>
+                            <h5 class="card-title">Madri em 2 dias</h5>
+                            <p class="card-text mb-0">Museus, parques e centros históricos para quem quer conhecer a capital com roteiro compacto.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge text-bg-danger mb-2">Natureza</span>
+                            <h5 class="card-title">Ilhas Canárias para iniciantes</h5>
+                            <p class="card-text mb-0">Praias, trilhas e atividades ao ar livre para quem busca paisagens diferentes do continente.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge text-bg-danger mb-2">Cultural</span>
+                            <h5 class="card-title">Toledo e Córdoba</h5>
+                            <p class="card-text mb-0">Duas cidades históricas com influência cristã, judaica e islâmica em monumentos impressionantes.</p>
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-lg-4">
+                    <h2 class="h4 mb-3">Destino por perfil</h2>
+                    <ul class="list-group shadow-sm">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Arte e museus<span class="badge text-bg-light">Madri</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Arquitetura<span class="badge text-bg-light">Barcelona</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">História<span class="badge text-bg-light">Granada</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Praia<span class="badge text-bg-light">Canárias</span></li>
+                    </ul>
+                </aside>
             </div>
         </div>
     </section>

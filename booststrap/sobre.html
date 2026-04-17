@@ -28,55 +28,81 @@
         </div>
     </nav>
 
-    <section class="bg-warning py-5">
+    <section class="py-5 bg-light">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h1 class="mb-3">Sobre a Espanha</h1>
-                    <p class="mb-4">A Espanha combina história milenar, paisagens diversas e tradições culturais fortes. Do norte verde das montanhas à costa dourada do Mediterrâneo, cada região revela aspectos únicos do país.</p>
-                    <a href="index.html" class="btn btn-danger">Voltar ao início</a>
+            <div class="row mb-4">
+                <div class="col-lg-9">
+                    <h1 class="display-6 fw-bold mb-3">Sobre a Espanha</h1>
+                    <p class="lead mb-2">Explore a história, os costumes e os contrastes regionais que fazem da Espanha um dos destinos mais completos da Europa.</p>
+                    <p class="text-secondary mb-0">Nesta página, você encontra destaques principais no topo e conteúdos complementares organizados abaixo em um formato editorial.</p>
                 </div>
-               
             </div>
-        </div>
-    </section>
 
-    <section class="py-5 bg-warning text-dark">
-        <div class="container">
-            <h2 class="text-center mb-4">Regiões e tradições</h2>
-            <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <article class="card text-bg-dark border-0 shadow h-100">
+                        <img src="imagens/toruada.jpeg" class="card-img" alt="Paisagem urbana da Espanha" style="min-height: 360px; object-fit: cover;">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.15));">
+                            <span class="badge text-bg-danger mb-2 align-self-start">Visão geral</span>
+                            <h2 class="h3 fw-bold">Um país de muitas identidades</h2>
+                            <p class="mb-0">Da Andaluzia à Catalunha, cada região preserva tradições, sotaques e expressões culturais próprias.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow mb-4">
                         <div class="card-body">
-                            <h5>Região Norte</h5>
-                            <p>O norte tem clima fresco, cidades históricas como Santiago de Compostela e uma gastronomia rica em frutos do mar.</p>
+                            <span class="badge text-bg-secondary mb-2">Curiosidade</span>
+                            <h3 class="h5">Diversidade cultural</h3>
+                            <p class="mb-0">Além do castelhano, idiomas como catalão, basco e galego fazem parte da identidade local.</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h3 class="h5">Planeje sua viagem</h3>
+                            <p class="mb-3">Escolha o roteiro conforme seu interesse: história, praias, gastronomia ou vida urbana.</p>
+                            <a href="index.html" class="btn btn-danger w-100">Voltar ao início</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
+            </div>
+
+            <hr class="my-5">
+
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <h2 class="h3 mb-3">Leituras recentes</h2>
+                    <div class="card mb-3 shadow-sm border-0">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="imagens/toruada.jpeg" class="img-fluid rounded-start h-100" alt="História da Espanha" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <span class="badge text-bg-danger mb-2">História</span>
+                                    <h5 class="card-title">Da Península Ibérica ao presente</h5>
+                                    <p class="card-text mb-0">Entenda os períodos que moldaram o país e como eles aparecem na arquitetura e nas cidades atuais.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm border-0">
                         <div class="card-body">
-                            <h5>Região Sul</h5>
-                            <p>O sul apresenta o calor andaluz, monumentos mouriscos como a Alhambra e festas populares cheias de cor.</p>
+                            <span class="badge text-bg-danger mb-2">Cultura</span>
+                            <h5 class="card-title">Festas e tradições que marcam a Espanha</h5>
+                            <p class="card-text mb-0">Flamenco, festivais regionais e celebrações populares mostram a força cultural do cotidiano espanhol.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5>Ilhas</h5>
-                            <p>Ilhas Baleares e Canárias oferecem praias, natureza exuberante e destinos perfeitos para descanso e aventura.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5>Cidades</h5>
-                            <p>Madri, Barcelona e Sevilha misturam museus, arquitetura moderna e tradições históricas em cada esquina.</p>
-                        </div>
-                    </div>
-                </div>
+                <aside class="col-lg-4">
+                    <h2 class="h4 mb-3">Temas por região</h2>
+                    <ul class="list-group shadow-sm">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Norte<span class="badge text-bg-light">Cultura</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Centro<span class="badge text-bg-light">História</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Sul<span class="badge text-bg-light">Tradições</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Ilhas<span class="badge text-bg-light">Natureza</span></li>
+                    </ul>
+                </aside>
             </div>
         </div>
     </section>
